@@ -11,7 +11,7 @@ metadata:
 spec:
   ingressClassName: alb
   rules:
-    - host: shresthaanamika.com.np
+    - host: https://shresthaanamika.com.np
       http:
         paths:
           - path: /api
