@@ -6,7 +6,7 @@ metadata:
 spec: 
   accessModes:  
     - ReadWriteOnce
-  storageClassName: ""
+  storageClassName: gp2  # Dynamic provisioning using EBS-backed storage
   resources:
     requests:
       storage: 1Gi
